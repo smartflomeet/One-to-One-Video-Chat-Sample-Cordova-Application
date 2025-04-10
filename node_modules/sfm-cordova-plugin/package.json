@@ -1,0 +1,23 @@
+{
+  "name": "sfm-cordova-plugin",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "sfm-cordova-plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "Add live video streaming to your Cordova Application",
+  
+  "keywords": [
+    "smartflomeet",
+    "sfm",
+    "Cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "",
+  "license": "MIT"
+}

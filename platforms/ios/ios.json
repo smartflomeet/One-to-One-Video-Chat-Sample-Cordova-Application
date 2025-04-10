@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"EnxRtc\"><param name=\"ios-package\" onload=\"true\" value=\"EnxCordovaPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "sfm-cordova-plugin": {
+      "PACKAGE_NAME": "com.example.Sample"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "sfm-cordova-plugin.enxcordovaplugin",
+      "file": "plugins/sfm-cordova-plugin/www/enxcordovaplugin.js",
+      "pluginId": "sfm-cordova-plugin",
+      "clobbers": [
+        "EnxRtc"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "sfm-cordova-plugin": "1.0.0"
+  }
+}
